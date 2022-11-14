@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+
+.BioData{
+    text-align: center;
+    padding: .5rem 0;
+    color: rgb(49, 170, 140);
+}
+h1{
+    cursor: pointer;
+}
+h2{
+    color: red;
+    cursor: pointer;
+}
+p{
+    cursor: pointer;
+}
+button{
+    margin-bottom: .5rem;
+    padding: .5rem 1rem;
+    margin: .5rem 0;
+    font-size: 1.2rem;
+    background:none;
+    border: 2px solid rgb(49, 170, 140);
+    border-radius: 12px;
+    color: rgb(49, 170, 140);
+    transition: all .2s ease;
+}
+
+button:hover{
+    background-color: rgb(49, 170, 140);
+    color: white;
+}

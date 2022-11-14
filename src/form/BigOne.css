@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: linear-gradient(45deg, purple 20%, aqua);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80vw;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.8rem;
+  margin: 1rem;
+  border: none;
+  font-size: 1rem;
+  background-color: none;
+  border-radius: 1.5rem;
+  background-color: rgb(42, 140, 252);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover {
+  background-color: rgb(25, 113, 214);
+  color: white;
+}
+
+.Form-wrapper {
+  height: 600px;
+  width: 400px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-field {
+  width: 90%;
+  height: 10%;
+  margin: 1rem;
+  background-color: rgb(160, 160, 160);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.5;
+}
+
+.Output-section {
+  background-color: white;
+  color: black;
+  padding: 2rem 0;
+  width: 400px;
+  height: auto;
+  margin-top: 2rem;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+input {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+}/*# sourceMappingURL=BigOne.css.map */
